@@ -38,8 +38,7 @@
 
   >特点 : 01 自带代表顺序的数字 02 有顺序 $\textcolor{red}{03ol里只能包含li标签}$ 04 li标签里可以包含任何内容
 
-  效果:![1653217256213](C:\Users\野生苏苏\AppData\Roaming\Typora\typora-user-images\1653217256213.png)
-
+  效果:![1653217256213.md.png](https://s1.imagehub.cc/images/2022/05/26/1653217256213.md.png)](https://www.imagehub.cc/image/GPZbrO)
 ##### 自定义列表(列表底部导航)
 
 - 标签组成
