@@ -24,8 +24,7 @@
 
   三个构成部分:
 
-  ![1653043783994](C:\Users\野生苏苏\AppData\Roaming\Typora\typora-user-images\1653043783994.png)
-
+ https://www.imagehub.cc/image/GPZTfa
 
 
 ##### HTML先导
