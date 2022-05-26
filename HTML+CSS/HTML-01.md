@@ -13,9 +13,9 @@
   | 浏览器名称                         | 内核                          | 备注                                       |
   | ---------------------------------- | ----------------------------- | ------------------------------------------ |
   | 火狐-firefox                       | GECKO                         |                                            |
-  | $\textcolor{Emerald}{谷歌-Chrome}$ | $\textcolor{Emerald}{BLINK}$  | $\textcolor{Emerald}{BLINK为webkit的分支}$ |
+  | 谷歌-Chrome | BLINK  | BLINK为webkit的分支 |
   | IE                                 | TRIDENT                       | 已经开始升级为edge                         |
-  | $\textcolor{Emerald}{Safari}$      | $\textcolor{Emerald}{WEBKIT}$ | $\textcolor{Emerald}{多见于MAC}$           |
+  | Safari     | WEBKIT | $多见于MAC          |
   | opera                              | BLINK                         |                                            |
 
   > 渲染引擎不同性能速度效果都会受影响
