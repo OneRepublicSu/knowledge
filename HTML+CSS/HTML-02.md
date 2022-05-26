@@ -57,8 +57,8 @@
   >特点  01 dd前默认缩进  02 dd和dt标签里可以包含任何内容  $\textcolor{red}{03dl里只能包含dt和dd标签}$  $\textcolor{red}{04dt是主题,dd是对dt的描述}$
 
   效果:
-  
-  [![1653202580706.md.png](https://s1.imagehub.cc/images/2022/05/26/1653202580706.md.png)](https://www.imagehub.cc/image/GPaqtY)
+ 
+[![1653202601058.md.png](https://s1.imagehub.cc/images/2022/05/26/1653202601058.md.png)](https://www.imagehub.cc/image/GPaQWr)
 
 #### 表格标签
 
