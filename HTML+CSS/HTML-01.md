@@ -23,8 +23,10 @@
 - web标准的目的:让展示的效果统一
 
   三个构成部分:
+  
+  ![1653041655546.png](https://s1.imagehub.cc/images/2022/05/26/1653041655546.png)
 
- https://www.imagehub.cc/image/GPZTfa
+ 
 
 
 ##### HTML先导
