@@ -95,11 +95,11 @@
   | -------- | -------- | --------------------------------- |
   | 标签     | div      |                                   |
   | 类名     | div.red  |
-  ```css <div class="red"></div>     ```      |
-  | id名     | div#red  | <div id="red"></div>              |
-  | 子代元素 | ul>li    | <ul><li></li></ul>                |
-  | 内容     | div{red} | <div>red</div>                    |
-  | 批量生成 | div*3    | <div></div><div></div><div></div> |
+   <Div class="red"></div>         |
+  | id名     | div#red  | <Div id="red"></div>              |
+  | 子代元素 | ul>li    | <Ul><Li></li></ul>                |
+  | 内容     | div{red} | <Div>red</div>                    |
+  | 批量生成 | div*3    | <Div></div><Div></div><Div></div> |
   | css      | bgi      | background-image(css记缩写)       |
 
   > 生成子代元素用> 生成兄弟元素用 +
