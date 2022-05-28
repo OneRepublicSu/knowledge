@@ -94,7 +94,8 @@
   | 记忆     | 示例     | 效果                              |
   | -------- | -------- | --------------------------------- |
   | 标签     | div      |                                   |
-  | 类名     | div.red  | <div class="red"></div>           |
+  | 类名     | div.red  |
+  ```css <div class="red"></div>     ```      |
   | id名     | div#red  | <div id="red"></div>              |
   | 子代元素 | ul>li    | <ul><li></li></ul>                |
   | 内容     | div{red} | <div>red</div>                    |
