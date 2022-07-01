@@ -121,7 +121,7 @@ body {
 ```html
      <div class="logo fl">
             <h1>
-                <a href="#">学成在线</a>
+                <a href="#">您的工程名字</a>
             </h1>
         </div>
 ```
@@ -159,9 +159,9 @@ body {
   ```html
   <div class="nav fl">
               <ul>
-                  <li><a href="#">首页</a></li>
-                  <li><a href="#">课程 </a></li>
-                  <li><a href="#">职业规划</a></li>
+                  <li><a href="#">01</a></li>
+                  <li><a href="#">02</a></li>
+                  <li><a href="#">03</a></li>
           </ul>
   </div>
   ```
@@ -234,7 +234,7 @@ body {
   ```html
   <div class="user fr">
               <img src="./images/user.png" alt="">
-              <span>风一样的男人</span>
+              <span>您的名字</span>
   </div>
   ```
 
@@ -278,15 +278,15 @@ body {
 ```html
 <div class="aside">
                <ul>
-                   <li><a href="#">前端开发</a></li>
-                   <li><a href="#">后端开发</a></li>
-                   <li><a href="#">移动开发</a></li>
-                   <li><a href="#">人工智能</a></li>
-                   <li><a href="#">商业预测</a></li>
-                   <li><a href="#">云计算&大数据</a></li>
-                   <li><a href="#">运维&从测试</a></li>
-                   <li><a href="#">UI设计</a></li>
-                   <li><a href="#">产品</a></li>
+                   <li><a href="#">01</a></li>
+                   <li><a href="#">02</a></li>
+                   <li><a href="#">03</a></li>
+                   <li><a href="#">04</a></li>
+                   <li><a href="#">05</a></li>
+                   <li><a href="#">06</a></li>
+                   <li><a href="#">07</a></li>
+                   <li><a href="#">08</a></li>
+                   <li><a href="#">09</a></li>
                </ul>
 </div>
 ```
