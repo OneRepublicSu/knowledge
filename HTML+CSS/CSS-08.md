@@ -31,11 +31,11 @@
 
   ```css
      <!--网页标题-->
-    <title>小兔鲜儿-新鲜、惠民、快捷！</title>
+    <title>您的标题</title>
       <!--网页描述-->
-    <meta name="description" content="小兔鲜儿官网，致力于打造全球最大的食品、生鲜电商购物平台。">
+    <meta name="description" content="您的描述">
        <!--网页关键词-->
-    <meta name="keywords" content="小兔鲜儿,食品,生鲜,服装,家电,电商,购物">
+    <meta name="keywords" content="您的关键词">
        <!--网页ico图标-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
        <!--网页初始化样式-->
@@ -74,9 +74,9 @@
   ```html
      <section class="xtx-service">
         <div class="container">
-          <a href="#">价格亲民</a>
-          <a href="#">物流快捷</a>
-          <a href="#">品质新鲜</a>
+          <a href="#">01</a>
+          <a href="#">02</a>
+          <a href="#">03</a>
         </div>
       </section>
   ```
@@ -115,64 +115,4 @@
   ```
 
   > 后期结合js来使用此模块的内容
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
