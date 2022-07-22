@@ -44,7 +44,7 @@
           }
   ```
 
-  取值在css里寻找
+  取值在iconfont给的css中寻找
 
 ##### 平面转换
 
@@ -58,7 +58,9 @@
 
   > $\textcolor{red}{注意x轴的正方向为右,y轴的正方向朝下}$
   >
-  > $\textcolor{Emerald}{如果只出现一个值,默认为x轴的方向}​$
+  > $\textcolor{Emerald}{如果只出现一个值,默认为x轴的方向}$
+  >
+  > 位移和margin的区别:translate位移是不会影响到下面的内容,margin移动盒子会影响到下面的内容
 
 - ###### 小拓展:使用translate进行元素居中效果
 
@@ -103,8 +105,13 @@
 
 - 使用transform实现元素缩放效果:
 
-  ```scss
+  ```css
   transform: scale(3);
+  ```
+- 使用transform实现元素倾斜效果:
+
+  ```css
+  transform: skew(50deg);
   ```
 
 - 多行文字超过显示省略号:
@@ -128,5 +135,11 @@
   background-image: linear-gradient(to bottom,red,green,);
   ```
 
-  
+  > 径向渐变
 
+  ```css
+    /* 经常使用 从上到下,透明色变成半透明(省略第一个参数)*/
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, .5));
+  ```
+
+  
