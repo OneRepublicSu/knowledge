@@ -1,4 +1,4 @@
-#### 项目搭建
+#### 项目搭建注意点
 
 ##### 结构搭建
 
@@ -80,7 +80,7 @@ body {
 - 分析模块时的原则是$\textcolor{Emerald}{先行后列(需要确定列的大小),先上后下,从外到内}$
 - 先有结构后有样式
 
-##### 版心
+##### 版心常见样式为
 
 ```css
 .container{
@@ -97,7 +97,7 @@ body {
 
 ##### header布局
 
-给高度以及上下的magin即可
+一般给高度以及上下的magin即可
 
 ```css
 .header {
@@ -127,6 +127,7 @@ body {
 ```
 
 ```css
+/*大小写在总的logo盒子上*/
 .logo {
     width: 195px;
     height: 42px;
@@ -136,7 +137,7 @@ body {
     width: 100%;
     height: 100%;
 }
-
+/*装饰都加在a标签上*/
 .logo h1 a {
     display: block;
     width: 195px;
@@ -157,7 +158,8 @@ body {
   > margin给外层,padding给内层
 
   ```html
-  <div class="nav fl">
+  <!-- 导航的常见格式-->
+  <div class="nav">
               <ul>
                   <li><a href="#">01</a></li>
                   <li><a href="#">02</a></li>
@@ -166,97 +168,38 @@ body {
   </div>
   ```
 
-  ```css
-  .nav{
-      margin-left: 70px;
-  }
-  .nav ul li{
-      float: left;
-      margin-right: 26px;
-  }
-  
-  .nav ul li a {
-      display: block;
-      padding: 0 9px;
-      height: 42px;
-      line-height: 42px;
-      font-size: 18px;
-      color: #050505;
-  }
-  
-  .nav ul li a:hover {
-      border-bottom: 2px solid #00a4ff;
-      color: #00a4ff;
-  }
-  ```
-
-- 顶部search布局
+- search常见的布局
 
   ```html
-   <div class="search fl">
+  <!-- 搜索框的常见格式--> 
+  <div class="search ">
               <input type="text" placeholder="输入关键词">
               <button></button>
-       </button>
   </div>
   ```
 
-  ```css
-  .search {
-      width: 412px;
-      height: 40px;
-      margin-left: 59px;
-  }
-  
-  .search input {
-      width: 360px;
-      height: 40px;
-      border: 1px solid #00a4ff;
-      border-right: 0;
-      padding-left: 20px;
-      font-size: 14px;
-  }
-  .search input::placeholder {
-      color: #bfbfbf;
-  }
-  
-  .search button {
-      width: 50px;
-      height: 40px;
-      background-color: red;
-      background: url(../images/btn.png);
-  }
-  ```
-
   > input与button需要进行浮动,因为都是行内块元素,中间会有空隙
+  >
+  > search盒子里面需要单独的包含input表单和button按钮
 
 - 用户user布局
 
   ```html
-  <div class="user fr">
+  <!-- 图片和id对齐经典应用场景-->
+  <div class="user ">
               <img src="./images/user.png" alt="">
               <span>您的名字</span>
   </div>
   ```
 
   ```css
-  .user {
-      height: 42px;
-      line-height: 42px;
-      margin-right: 35px;
-  }
-  
   /* 图片与文字垂直居中对齐 */
   .user img {
       vertical-align: middle;
   }
-  
-  .user span {
-      font-size: 14px;
-      color: #666;
-  }
   ```
 
-#### banner(轮播)布局
+#### banner(轮播)常见布局
 
 > 首先要有一个通栏的大盒子,给高度以及背景颜色
 
@@ -291,36 +234,4 @@ body {
 </div>
 ```
 
-```css
-.aside {
-    width: 190px;
-    height: 420px;
-    background-color: rgba(0, 0, 0, .3);
-}
-
-.aside ul li {
-    height: 44px;
-    line-height: 44px;
-    padding: 0 20px;
-}
-
-.aside ul li a {
-    font-size: 14px;
-    color: #ffffff;
-}
-/* 伪元素实现大于号*/
-.aside ul li a::after{
-    float: right;
-    content: '>';
-   
-}
-.aside ul li a:hover{
-    color: #00b4ff;
-}
-```
-
-> 此处高度和行高psdding加给li,浮动变色时才是整个li都在变色
-
-
-
-网页其余部分依次排版即可
+> 使用标签的时候尽可能的使用语义化的表达
