@@ -2,7 +2,7 @@
 
 ------
 
-##### 基础概念铺垫
+##### Basics
 
 - 前端的代码是通过浏览器(渲染引擎)转化(解析和渲染)成用户看到的网页的
 
@@ -14,7 +14,7 @@
   | ---------------------------------- | ----------------------------- | ------------------------------------------ |
   | 火狐-firefox                       | GECKO                         |                                            |
   | $\textcolor{Emerald}{谷歌-Chrome}$ | $\textcolor{Emerald}{BLINK}$  | $\textcolor{Emerald}{BLINK为webkit的分支}$ |
-  | IE                                 | TRIDENT                       | 已经开始升级为edge                         |
+  | edage                              | TRIDENT                       |                                            |
   | $\textcolor{Emerald}{Safari}$      | $\textcolor{Emerald}{WEBKIT}$ | $\textcolor{Emerald}{多见于MAC}$           |
   | opera                              | BLINK                         |                                            |
 
@@ -23,17 +23,19 @@
 
 - web标准的目的:让展示的效果统一
 
-  三个构成部分:
- 
- [![1653041655546.md.png](https://s1.imagehub.cc/images/2022/05/26/1653041655546.md.png)](https://www.imagehub.cc/image/GPZTfa)
- 
+  | 构成 | 语言       | 说明                       |
+  | ---- | ---------- | -------------------------- |
+  | 结构 | html       | 页面元素和内容             |
+  | 表现 | cs         | 网页的外观和位置等页面样式 |
+  | 行为 | JavaScript | 网页模型的定义与页面交互   |
 
+  > web标准要求页面实现:结构表现行为的三层分离
 
-##### HTML先导
+##### HTML
 
 - html:超文本标记语言
 
-- html通过==标签==来对页面内容进行描述
+- html通过标签来对页面内容进行描述
 
 - $\textcolor{red}{html的骨架结构}​$
 
@@ -56,18 +58,17 @@
   </html>
   ```
 
-  $\textcolor{Emerald}{快捷创建骨架代码的两种方式: !+tab或者html:5}$
+  $\textcolor{Emerald}{快捷创建骨架代码的两种方式: !+enter或者html:5}$
 
 - vscode部分基础快捷键
 
-  | 功能         | 按键                                   |
-  | ------------ | -------------------------------------- |
-  | 创建框架     | $\textcolor{Emerald}{!+tab或者html:5}$ |
-  | 保存         | ctrl+s                                 |
-  | 注释         | ctrl  +/                               |
-  | 查看网页效果 | alt+b                                  |
+  | 功能         | 按键                                     |
+  | ------------ | ---------------------------------------- |
+  | 创建框架     | $\textcolor{Emerald}{!+enter或者html:5}$ |
+  | 保存         | ctrl+s                                   |
+  | 注释         | ctrl  +/                                 |
+  | 查看网页效果 | alt+b                                    |
 
-  
 
 ##### 语法规范
 
@@ -75,8 +76,12 @@
 
 - 标签
 
- [![1653043555080.md.png](https://s1.imagehub.cc/images/2022/05/26/1653043555080.md.png)](https://www.imagehub.cc/image/GPZ49O)
- 
+  ![标签结构.png](https://s2.loli.net/2022/07/22/hgVyfn6sEKTxdlX.png)
+
+  开始标签+内容+结束标签  
+
+  单标签不能包裹内容
+
 - 属性记录在开始标签里,同时可以存在多个属性,属性名和标签名之间以空格分隔,不分前后顺序
 
   ```html
@@ -85,7 +90,6 @@
 
 - 标签与标签之间的关系有$\textcolor{Emerald}{嵌套(父子)以及并列(兄弟)}$
 
-  
 
 #### HTML标签
 
@@ -93,17 +97,17 @@
 
 ##### 排版标签
 
-- 标题标签-双:==<h1~6>== 由大到小
+- 标题标签: <h1~6> 由大到小
 
   特点:加粗;数字越小字体越大;独占一行
 
   数字为几就是几级标题
 
-- 段落标签-双:==< p >== 适用于分段显示
+- 段落标签: < p > 适用于分段显示
 
   特点:段落之间存在间隙/独占一行/页面宽度不够时会自动换行
 
-- 换行标签-$\textcolor{red}{单}$:==< br >==用来换行
+- 换行标签:  < br > 用来换行
 
 - 水平线标签-单: < hr >
 
@@ -142,7 +146,7 @@
 
   绝对路径: eg:https://www.baidu.com/ (协议开头)
 
-  ​                      C:\Users\野生苏苏\Desktop\预科班(盘符开头)
+  ​                      C:\Users\野生苏苏\OneRepublicSu\MyFile(盘符开头)
 
   相对路径:eg:   src="../../../image1/image2/image3/a.jpg" 
 
@@ -158,7 +162,7 @@
   >
   > controls:显示播放的控件
   >
-  > autoplay:自动播放(受浏览器影响,时常bug)
+  > autoplay:自动播放
   >
   > loop:循环播放
   >
@@ -174,7 +178,7 @@
   >
   > controls:显示播放的控件
   >
-  > autoplay:自动播放(受浏览器影响,时常bug)
+  > autoplay:自动播放
   >
   > loop:循环播放
   >
@@ -198,7 +202,7 @@
   >
   > target属性告诉浏览器以何种方式打开新网页:
   >
-  > _ self(默认):覆盖原页面==_ blank:新建窗口(保留原页面)==
+  > _ self(默认):覆盖原页面  _ blank:新建窗口(保留原页面)
 
   $\textcolor{red}{空链接:在href属性里加上}$**#**$\textcolor{red}{,否则点这个链接就会刷新一次界面}$
 
