@@ -4,9 +4,9 @@
 
 - 模块化开发,结构样式相分离
 
-- 实际开发中,项目文件夹不建议使用中文,推荐命名为$\textcolor{Emerald}{xtx(项目名缩写)-pc-client}$
+- 实际开发中,项目文件夹不建议使用中文,推荐命名为$\textcolor{Emerald}{xmjc(项目名缩写)-pc-client}$
 
-- 复制$\textcolor{Emerald}{favicon.ico}$到根目录里
+- 复制$\textcolor{Emerald}{favicon.ico}​$到根目录里
 
 - 创建图片文件夹
 
@@ -23,7 +23,6 @@
 
   $\textcolor{red}{index.css}$首页样式
 
-  
 
 ##### SEO三大标签
 
@@ -31,18 +30,18 @@
 
   ```css
      <!--网页标题-->
-    <title>您的标题</title>
-      <!--网页描述-->
-    <meta name="description" content="您的描述">
-       <!--网页关键词-->
-    <meta name="keywords" content="您的关键词">
-       <!--网页ico图标-->
+    <title>标题</title>
+      <!--描述-->
+    <meta name="description" content="描述">
+       <!--关键词-->
+    <meta name="keywords" content="关键词">
+       <!--ico图标-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-       <!--网页初始化样式-->
+       <!--初始化样式-->
     <link rel="stylesheet" href="./css/base.css">
-       <!--网页头部 尾部公共样式-->
+       <!--公共样式-->
     <link rel="stylesheet" href="./css/common.css">
-       <!--网页首页样式-->
+       <!--首页样式-->
     <link rel="stylesheet" href="./css/index.css">
   ```
 
@@ -69,45 +68,40 @@
 
 ##### 底部导航结构
 
-- 语法
+- 常见的底部结构
 
   ```html
-     <section class="xtx-service">
-        <div class="container">
+     <div class="footer">
           <a href="#">01</a>
           <a href="#">02</a>
           <a href="#">03</a>
-        </div>
-      </section>
+      </div>
   ```
 
-  > 底部通常是盒子包a
-
-
+  > 底部通常是div包a
 
 ##### 轮播图
 
-- 轮播大块
+- 常见的轮播结构
 
   ```html
-   <div class="xtx-entry">
-      <div class="container">
-          <!-- 焦点图 -->
+   <div class="banner">
            <ul class="banner">
             <li><a href="#"><img src="./uploads/banner_1.png" alt=""></a></li>
+            <li><a href="#"><img src="./uploads/banner_2.png" alt=""></a></li>
           </ul>
-       </div>
   </div>
   ```
 
-  > ul包li的方式方便加轮播图
+  > ul包li的方式方便增加轮播图的页面
 
 - 轮播图指示器
 
   ```html
-  <ol class="indicator">
+       <ol class="indicator">
           <li></li>
           <li></li>
+           <!--active表示选中的状态 -->
           <li class="active"></li>
           <li></li>
           <li></li>
